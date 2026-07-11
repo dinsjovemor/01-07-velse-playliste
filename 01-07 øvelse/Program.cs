@@ -1,21 +1,22 @@
 ﻿using _01_07_øvelse.Models;
-Artist RATM = new Artist();
-RATM.Name = "Rage Against The Maschine";
-RATM.Description = "Rage Against the Machine is an American rock band formed in Los Angeles, California, in 1991. The band's music combines elements of hip hop, punk rock, and heavy metal, and is known for its politically charged lyrics and activism.";
+Artist RATM = new Artist(); // Creating a new artist, starting with datatype: Artist. Naming the artist: RATM = (creating) new Artist
+RATM.Name = "Rage Against The Maschine"; //Naming, descriribing etc. the band RATM
+RATM.Description = "Rage Against the Machine is an American rock band formed in Los Angeles, California, in 1991. " +
+    "The band's music combines elements of hip hop, punk rock, and heavy metal, and is known for its politically charged lyrics and activism.";
 RATM.AmountOfMembers = 4;
 RATM.YearFormed = 1991;
-Artist Nirvana = new Artist();
-Nirvana.Name = "Nirvana";
+Artist Nirvana = new Artist(); // Creating a new artist, starting with datatype: Artist. Naming the artist: Nirvana = (creating) new Artist
+Nirvana.Name = "Nirvana"; //Naming, descriribing etc. the band RATM
 Nirvana.Description = "Nirvana was an American rock band formed in Seattle, Washington, in 1987. The band consisted of Kurt Cobain, Krist Novoselic, and Dave Grohl.";
 Nirvana.AmountOfMembers = 3;
 Nirvana.YearFormed = 1987;
 
 
-User brugernavn = new User();
-brugernavn.UserName = "Dinosaurus";
+User brugernavn = new User(); //Creating new User. Starting with datatype User. Naming the variable "brugernavn". = Creating new user
+brugernavn.UserName = "Dinosaurus"; // By using the variable brugernavn, the UserName is named Dinusaurus
 
 
-Playlist DinasPlaylist = new Playlist();
+Playlist DinasPlaylist = new Playlist(); 
 DinasPlaylist.Name = "1. playliste";
 DinasPlaylist.Owner = brugernavn;
 
