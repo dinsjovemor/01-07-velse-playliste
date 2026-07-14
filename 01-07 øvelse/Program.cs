@@ -1,20 +1,34 @@
 ﻿using _01_07_øvelse.Models;
-Artist RATM = new Artist(); // Creating a new artist, starting with datatype: Artist. Naming the artist: RATM = (creating) new Artist
-RATM.Name = "Rage Against The Maschine"; //Naming, descriribing etc. the band RATM
+// Creating a new artist:
+// Starting with defining the datatype as an "Artist"
+// Naming the variable "RATM"
+// And then creating "= new Artist();"
+Artist RATM = new Artist();
+//Then, as predefined in the class "Artist", I will need to tell what this Artist contains of:
+//Name, Description, AmountOfMembers and YearFormed:
+
+//RATM is the name of the variable that I am using to define the band Rage Against The Maschine.
+//Starting with . to choose "Name", and then equals with =
+//Then I write the band name "Rage Against The Maschine"  
+RATM.Name = "Rage Against The Maschine"; 
+//Same way as before, for Description
 RATM.Description = "Rage Against the Machine is an American rock band formed in Los Angeles, California, in 1991. " +
     "The band's music combines elements of hip hop, punk rock, and heavy metal, and is known for its politically charged lyrics and activism.";
+//Same way as before, for AmountOfMembers
 RATM.AmountOfMembers = 4;
+//Same way as before, for YearFormed
 RATM.YearFormed = 1991;
-Artist Nirvana = new Artist(); // Creating a new artist, starting with datatype: Artist. Naming the artist: Nirvana = (creating) new Artist
-Nirvana.Name = "Nirvana"; //Naming, descriribing etc. the band RATM
+
+Artist Nirvana = new Artist(); 
+Nirvana.Name = "Nirvana"; 
 Nirvana.Description = "Nirvana was an American rock band formed in Seattle, Washington, in 1987. The band consisted of Kurt Cobain, Krist Novoselic, and Dave Grohl.";
 Nirvana.AmountOfMembers = 3;
 Nirvana.YearFormed = 1987;
 
-
-User brugernavn = new User(); //Creating new User. Starting with datatype User. Naming the variable "brugernavn". = Creating new user
-brugernavn.UserName = "Dinosaurus"; // By using the variable brugernavn, the UserName is named Dinusaurus
-
+//Starting with class "User". Naming the variable "brugernavn". = (creating) new user
+User brugernavn = new User();
+// By using the variable "brugernavn", choosing .UserName, naming the user "Dinusaurus"
+brugernavn.UserName = "Dinosaurus"; 
 
 Playlist DinasPlaylist = new Playlist(); 
 DinasPlaylist.Name = "1. playliste";
