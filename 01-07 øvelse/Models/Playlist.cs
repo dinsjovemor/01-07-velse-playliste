@@ -8,7 +8,7 @@ namespace _01_07_øvelse.Models
     {
         public string Name { get; set; }
         public List<Song> Songs { get; set; } = new List<Song>();
-
+        
         public User Owner { get; set; }
 
     }
